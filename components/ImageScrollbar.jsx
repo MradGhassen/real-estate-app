@@ -43,8 +43,8 @@ export default function ImageSrollbar({ data }) {
             placeholder="blur"
             blurDataURL={item.url}
             src={item.url}
-            width={1200}
-            height={800}
+            width={item.width}
+            height={item.width}
             sizes="(max-width: 500px) 100px, (max-width: 1023px) 400px, 1000px"
           />
         </Box>
